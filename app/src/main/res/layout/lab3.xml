@@ -12,8 +12,11 @@
         android:layout_height="99dp"
         android:padding="20dp"
         android:text="Styles and Materials Design"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -21,8 +24,12 @@
         android:layout_height="222dp"
         android:padding="10dp"
         app:srcCompat="@drawable/qi"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="115dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389" />
 
     <TextView
         android:id="@+id/textView4"
